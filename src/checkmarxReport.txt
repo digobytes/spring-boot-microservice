@@ -1,0 +1,13 @@
+# checkmarx-report.txt
+
+1. **Vulnerability**: SQL Injection risk
+   **Line Number**: 20
+   **Description**: The `unsafeEndpoint` method is vulnerable to SQL Injection because it constructs a query using user input without proper escaping or parameterization.
+
+2. **Vulnerability**: Hardcoded credentials
+   **Line Number**: 15
+   **Description**: Example hardcoded credentials found in the code. Avoid using hardcoded credentials and instead use environment variables or a secure secrets management system.
+
+3. **Vulnerability**: Improper error handling
+   **Line Number**: 12
+   **Description**: Error handling in the code is not implemented properly, which could lead to exposing sensitive information through exceptions.
